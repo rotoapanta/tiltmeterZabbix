@@ -1,0 +1,12 @@
+[ZABBIX_INFO]
+ip_address = 192.168.1.115
+port = 10051
+
+[REFTEK_INFO]
+file_path=./stations_NAME_IP.json
+web_url=http://http://192.168.1.160:4000/
+
+[serial]
+serial_port = /dev/cu.usbserial-144220
+baud_rate = 9600
+host = CAYA_FW_1

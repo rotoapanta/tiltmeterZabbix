@@ -1,0 +1,28 @@
+[DEFAULT]
+title = Hello World
+compression = yes
+compression_level = 9
+
+[database]
+host = 127.0.0.1
+user = usarname
+pass = password
+keep-alive = no
+
+[db]
+db_name = myapp_dev
+db_host = localhost
+db_port = 8889
+
+[files]
+home_dir: /Users
+my_dir: ${home_dir}
+my_pictures: ${my_dir}/Pictures
+
+[ZABBIX_INFO]
+ip = 192.168.100.25
+port = 10051
+
+[REFTEK_INFO]
+file_path=./stations_NAME_IP.json
+web_url=http://http://192.168.1.160:4000/

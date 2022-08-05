@@ -1,0 +1,2 @@
+2022-02-12 22:11:51,586 pyzabbix.sender WARNING  Sending failed: [Errno 61] Connection refused
+2022-02-12 22:11:51,586 root            INFO     Error in send2Zabbix. Error was: [Errno 61] Connection refused
