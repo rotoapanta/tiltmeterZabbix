@@ -1,10 +1,10 @@
 [ZABBIX_INFO]
-ip_address = 192.168.1.115
+ip_address = XXX.XXX.XXX.XXX
 port = 10051
 
 [REFTEK_INFO]
 file_path=./stations_NAME_IP.json
-web_url=http://http://192.168.1.160:4000/
+web_url=http://http://XXX.XXX.XXX.XXX:XXXX/
 
 [serial]
 serial_port = /dev/cu.usbserial-144220
